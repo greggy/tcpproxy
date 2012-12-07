@@ -1,0 +1,12 @@
+{application, tcpproxy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tcpproxy_app, []}},
+  {env, []}
+ ]}.
