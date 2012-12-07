@@ -33,13 +33,13 @@ All configurations are stored in ./rel/files/sys.config file. Section 'tcproxy'.
 If you change the target host and/or port you should reload it. Just connect
 to the VM console and reload config:
 
-# ./rel/bin/tcpproxy attach
+> ./rel/bin/tcpproxy attach
 > config:reload().
 
 ### Instalation
 
-# cd ./tcpproxy
-# ./rebar get-deps
-# ./mkrel.sh
+> cd ./tcpproxy
+> ./rebar get-deps
+> ./mkrel.sh
 
 TCP Proxy is compiled and started!
